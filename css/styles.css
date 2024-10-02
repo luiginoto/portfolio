@@ -1,0 +1,130 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --accent-color: #e74c3c;
+    --background-color: #ecf0f1;
+    --text-color: #333;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem 0;
+}
+
+nav {
+    background-color: var(--secondary-color);
+    padding: 0.5rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: var(--accent-color);
+}
+
+h1 {
+    color: white;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+.section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 30px;
+    border: 4px solid var(--secondary-color);
+}
+
+.work-item, .education-item {
+    margin-bottom: 20px;
+}
+
+.work-item h3, .education-item h3 {
+    color: var(--secondary-color);
+    margin-
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill-category {
+    flex: 1 1 calc(50% - 20px);
+    min-width: 250px;
+}
+
+.skill-category h3 {
+    color: #2980b9;
+    margin-bottom: 10px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+}
+
+.skill-item {
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    list-style-type: none;
+}
